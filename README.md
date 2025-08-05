@@ -29,30 +29,6 @@ The dataset contains 200 customers with the following attributes:
 - Annual Income (k$)
 - Spending Score (1–100)
 
-### ✅ Outputs:
-
-- **Age Distribution:**  
-  _Image Placeholder_  
-  ![Age Distribution](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Age_Distribution.jpg)
-
-- **Gender Distribution:**  
-  _Image Placeholder_  
-  ![Gender Distribution](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Gender_Distribution.jpg)
-
-- **Annual Income Distribution:**  
-  _Image Placeholder_  
-  ![Annual Income](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Annual_Income_Distribution.jpg)
-
-- **Spending Score Distribution:**  
-  _Image Placeholder_  
-  ![Spending Score](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Spending_Score_Distribution.jpg)
-
-- **Correlation Heatmap:**  
-  _Image Placeholder_  
-  ![Heatmap](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Correlation_Heatmap.jpg)
-
----
-
 ## 🤖 Clustering Workflow
 
 ### ➤ Features Selected:
@@ -71,9 +47,6 @@ The dataset contains 200 customers with the following attributes:
 - Optimal clusters found: **K = 5**  
 - Silhouette Score: **0.5539**
 
-**Visual Outputs:**
-- ![Elbow Method](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Elbow_Method.jpg)
-- ![Silhouette Plot](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Silhouette_Score.jpg)
 
 ---
 
