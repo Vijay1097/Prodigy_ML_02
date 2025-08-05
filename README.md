@@ -30,7 +30,12 @@ The dataset contains 200 customers with the following attributes:
 - Spending Score (1–100)
 
 ### ✅ Outputs:
+https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Cluster_Size_Distribution.jpg
+https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Annual_Income%20vs%20Spending_score.jpg
 
+https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Age_vs_Spending_Score.jpg
+
+https://github.com/Vijay1097/Prodigy_ML_02/blob/main/3D_Plot.jpg
 - **Age Distribution:**  
   _Image Placeholder_  
   `![Age Distribution](path/to/age_distribution.png)`
