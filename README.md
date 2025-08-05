@@ -1,4 +1,4 @@
-# 🛍️ Customer Segmentation Using K-Means Clustering
+# 🛍 Customer Segmentation Using K-Means Clustering
 
 ## 📌 Task Description
 
@@ -12,12 +12,12 @@ Create a K-means clustering algorithm to group customers of a retail store based
 
 ## 📂 Project Structure
 
-- **Data Source:** `Mall_Customers.csv`
-- **Tools Used:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Google Colab
-- **Clustering Technique:** K-Means Clustering
-- **Feature Scaling:** StandardScaler
-- **Evaluation Metric:** Silhouette Score
-- **Visualization:** 2D, 3D scatter plots, pie charts, bar charts, heatmaps
+- **Data Source:** Mall_Customers.csv  
+- **Tools Used:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Google Colab  
+- **Clustering Technique:** K-Means Clustering  
+- **Feature Scaling:** StandardScaler  
+- **Evaluation Metric:** Silhouette Score  
+- **Visualization:** 2D, 3D scatter plots, pie charts, bar charts, heatmaps  
 
 ---
 
@@ -33,23 +33,23 @@ The dataset contains 200 customers with the following attributes:
 
 - **Age Distribution:**  
   _Image Placeholder_  
-  `![Age Distribution](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Cluster_Size_Distribution.jpg)`
+  ![Age Distribution](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Age_Distribution.jpg)
 
 - **Gender Distribution:**  
   _Image Placeholder_  
-  `![Gender Distribution](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Annual_Income%20vs%20Spending_score.jpg)`
+  ![Gender Distribution](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Gender_Distribution.jpg)
 
 - **Annual Income Distribution:**  
   _Image Placeholder_  
-  `![Annual Income](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Age_vs_Spending_Score.jpg)`
+  ![Annual Income](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Annual_Income_Distribution.jpg)
 
 - **Spending Score Distribution:**  
   _Image Placeholder_  
-  `![Spending Score](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/3D_Plot.jpg)`
+  ![Spending Score](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Spending_Score_Distribution.jpg)
 
 - **Correlation Heatmap:**  
   _Image Placeholder_  
-  `![Heatmap](path/to/correlation_heatmap.png)`
+  ![Heatmap](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Correlation_Heatmap.jpg)
 
 ---
 
@@ -61,47 +61,47 @@ The dataset contains 200 customers with the following attributes:
 - Spending Score
 
 ### ➤ Scaling:
-- Standardized using `StandardScaler`
+- Standardized using StandardScaler
 
 ### ➤ Optimal K Determination:
-- **Elbow Method**
+- **Elbow Method**  
 - **Silhouette Analysis**
 
 ### ➤ Clustering Results:
-- Optimal clusters found: `K = X`  
-- Silhouette Score: `X.XXX`
+- Optimal clusters found: **K = 5**  
+- Silhouette Score: **0.5539**
 
-_Visual Placeholder:_
-- `![Elbow Method](path/to/elbow_method.png)`
-- `![Silhouette Plot](path/to/silhouette_plot.png)`
+**Visual Outputs:**
+- ![Elbow Method](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Elbow_Method.jpg)
+- ![Silhouette Plot](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Silhouette_Score.jpg)
 
 ---
 
 ## 📊 Visualizing Clusters
 
 - **Annual Income vs Spending Score**  
-  `![Cluster Plot](path/to/income_vs_spending_cluster.png)`
+  ![Income vs Spending](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Annual_Income%20vs%20Spending_score.jpg)
 
 - **Age vs Spending Score**  
-  `![Cluster Plot](path/to/age_vs_spending_cluster.png)`
+  ![Age vs Spending](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Age_vs_Spending_Score.jpg)
 
 - **3D Plot (Age, Income, Score)**  
-  `![3D Cluster](path/to/3d_cluster.png)`
+  ![3D Cluster](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/3D_Plot.jpg)
 
 - **Cluster Size Distribution**  
-  `![Size Distribution](path/to/cluster_sizes.png)`
+  ![Cluster Sizes](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Cluster_Size_Distribution.jpg)
 
 ---
 
 ## 👥 Customer Personas
 
-| Cluster | Persona                   | Characteristics                                                                 |
+| Cluster | Persona                   | Characteristics                                                                 |
 |---------|---------------------------|----------------------------------------------------------------------------------|
-| 0       | 💰 Budget Conscious        | Low income, low spending                                                        |
-| 1       | 🛍️ Trendy Shoppers        | Low income, high spending                                                       |
-| 2       | 💎 High Income, Low Spend | High income, conservative spending                                              |
-| 3       | 👑 Premium Customers       | High income, high spending                                                      |
-| 4       | 🎯 Average Customers       | Mid-range income and spending                                                   |
+| 0       | 💰 Budget Conscious        | Low income, low spending                                                        |
+| 1       | 🛍 Trendy Shoppers        | Low income, high spending                                                       |
+| 2       | 💎 High Income, Low Spend | High income, conservative spending                                              |
+| 3       | 👑 Premium Customers       | High income, high spending                                                      |
+| 4       | 🎯 Average Customers       | Mid-range income and spending                                                   |
 
 ---
 
@@ -110,56 +110,56 @@ _Visual Placeholder:_
 Each persona is mapped to potential marketing strategies:
 
 ### 💰 Budget Conscious
-- Target with value deals
-- Loyalty programs
+- Target with value deals  
+- Loyalty programs  
 
-### 🛍️ Trendy Shoppers
-- Credit options
-- Trendy products
+### 🛍 Trendy Shoppers
+- Credit options  
+- Trendy products  
 
 ### 💎 High Income, Low Spending
-- Premium quality and exclusivity
-- Emphasize long-term product value
+- Premium quality and exclusivity  
+- Emphasize long-term product value  
 
 ### 👑 Premium Customers
-- VIP services
-- Luxury promotions
+- VIP services  
+- Luxury promotions  
 
 ### 🎯 Average Customers
-- Balanced promotions
-- Focus on satisfaction and retention
+- Balanced promotions  
+- Focus on satisfaction and retention  
 
 ---
 
 ## 💾 Output Files
 
-- `customer_segments.csv` – Final dataset with assigned cluster labels
-- `cluster_summary.csv` – Detailed stats for each cluster
+- `customer_segments.csv` – Final dataset with assigned cluster labels  
+- `cluster_summary.csv` – Detailed stats for each cluster  
 
 ---
 
 ## ✅ Conclusion
 
-- Total customers analyzed: **200**
-- Optimal clusters: **K = X**
-- Age range: **X–Y years**
-- Income range: **X–Y k$**
-- Spending Score range: **X–Y**
+- Total customers analyzed: **200**  
+- Optimal clusters: **K = 5**  
+- Age range: **18–70 years**  
+- Income range: **15k–137k $**  
+- Spending Score range: **1–100**
 
 ---
 
 ## 📌 Next Steps
 
-- Monitor cluster changes over time
-- Conduct A/B testing with marketing campaigns
-- Gather more data for improved insights
+- Monitor cluster changes over time  
+- Conduct A/B testing with marketing campaigns  
+- Gather more data for improved insights  
 
 ---
 
 ## 🏁 Final Output
 
-🎉 **Customer Segmentation Analysis Complete!**
+🎉 *Customer Segmentation Analysis Complete!*
 
 ---
 
-> **Note:** Replace `"path/to/image.png"` with the actual path or image links once you upload them (if using GitHub or Jupyter).
+> 💡 **Note:** All image links are sourced from the public GitHub repo. If the image URLs change or are updated, ensure the new paths are reflected here.
