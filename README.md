@@ -30,27 +30,22 @@ The dataset contains 200 customers with the following attributes:
 - Spending Score (1–100)
 
 ### ✅ Outputs:
-https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Cluster_Size_Distribution.jpg
-https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Annual_Income%20vs%20Spending_score.jpg
 
-https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Age_vs_Spending_Score.jpg
-
-https://github.com/Vijay1097/Prodigy_ML_02/blob/main/3D_Plot.jpg
 - **Age Distribution:**  
   _Image Placeholder_  
-  `![Age Distribution](path/to/age_distribution.png)`
+  `![Age Distribution](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Cluster_Size_Distribution.jpg)`
 
 - **Gender Distribution:**  
   _Image Placeholder_  
-  `![Gender Distribution](path/to/gender_distribution.png)`
+  `![Gender Distribution](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Annual_Income%20vs%20Spending_score.jpg)`
 
 - **Annual Income Distribution:**  
   _Image Placeholder_  
-  `![Annual Income](path/to/annual_income.png)`
+  `![Annual Income](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/Age_vs_Spending_Score.jpg)`
 
 - **Spending Score Distribution:**  
   _Image Placeholder_  
-  `![Spending Score](path/to/spending_score.png)`
+  `![Spending Score](https://github.com/Vijay1097/Prodigy_ML_02/blob/main/3D_Plot.jpg)`
 
 - **Correlation Heatmap:**  
   _Image Placeholder_  
